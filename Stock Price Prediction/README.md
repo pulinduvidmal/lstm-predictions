@@ -2,17 +2,6 @@
 
 This repository demonstrates the use of Long Short-Term Memory (LSTM) networks for predicting stock prices. LSTM is a type of Recurrent Neural Network (RNN) that is particularly effective for sequence prediction tasks, such as time series forecasting.
 
-## What is LSTM?
-
-Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) designed to model sequences and time series data. Unlike traditional RNNs, LSTMs are capable of learning long-term dependencies and capturing temporal patterns in data. This makes them ideal for tasks where the order of data points is crucial, such as predicting future stock prices based on historical data.
-
-### Key Components of LSTM:
-
-1. **Cell State**: The memory of the network that carries information across time steps.
-2. **Forget Gate**: Decides what information from the cell state should be discarded.
-3. **Input Gate**: Updates the cell state with new information.
-4. **Output Gate**: Controls what information is output from the cell state.
-
 ## Why Use LSTM for Stock Price Prediction?
 
 Stock price prediction is inherently a time series problem, where past prices are used to forecast future prices. LSTM networks offer several advantages for this type of problem:
